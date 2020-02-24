@@ -12,7 +12,6 @@ open class Card(var question: String, var answer: String, val id: String, val da
     var nextPracticeDate = 0
     var easiness = 2.5
     var currentDate = 0
-    var prueba = 5
 
     companion object {
         fun leer() : Card {
